@@ -1,6 +1,6 @@
 {
 	"development": {
 		"PORT": 3000,
-		"MONGODB_URI": "mongodb://localhost/yelp_camp"
+		"MONGODB_URI": "mongodb://localhost/rabbit"
 	} 
 }
