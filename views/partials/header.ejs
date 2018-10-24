@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rabbits | :)</title>
+		<link rel="stylesheet" href="/bootstrap.css">
+		<link rel="stylesheet" href="/main.css">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+  		<link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css?dp-version=1533195059" />
+		<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+		<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+		<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+		<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+		<link rel="stylesheet" href="/main.landing.css" />
+
+	<head>
+	<body>
+	
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<img id="logo" src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fmaxcdn.icons8.com%2FShare%2Ficon%2Fultraviolet%2FAnimals%2Frunning_rabbit1600.png&f=1" alt="Rabbit logo"> 
+			&nbsp;
+			<a class="navbar-brand" href="/">Rabbit ...</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<li class="pr-4"><a class="nav-item nav-link" href="/about">About Us</a></li>
+				<ul class="navbar-nav ml-auto">
+					<% if(!currentUser){ %>
+						<li class="pr-4"><a class="nav-item nav-link" href="/login">Login</a></li>
+						<li class="pr-4"><a class="nav-item nav-link" href="/register">Sign Up</a></li>
+					<% } else { %>
+						<li class="pr-4"><a class="nav-item nav-link" href="#">Signed In As <%= currentUser.username %></a></li>
+						<li class="pr-4"><a class="nav-item nav-link" href="/logout">Logout</a></li>
+					<% } %>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<% if(error && error.length > 0){ %>
+			<div class="alert alert-danger role="alert">
+				<%= error %>
+			</div>
+		<% } %>
+		<% if(success && success.length > 0){ %>
+			<div class="alert alert-success role="alert">
+				<%= success %>
+			</div>
+		<% } %>
+	</div>
