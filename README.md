@@ -12,8 +12,10 @@ Main Page
 Rabbits Galery
 ![alt text](https://github.com/ioanzicu/rabbit/blob/master/read-me-img/rabbit3.png)
 
+Footer
 ![alt text](https://github.com/ioanzicu/rabbit/blob/master/read-me-img/rabbit4.png)
 
+Show Page for individual rabbit post
 ![alt text](https://github.com/ioanzicu/rabbit/blob/master/read-me-img/rabbit5.png)
 
 ![alt text](https://github.com/ioanzicu/rabbit/blob/master/read-me-img/rabbit6.png)
