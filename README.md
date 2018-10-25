@@ -9,7 +9,7 @@ Landing Page
 Main Page
 ![alt text](https://github.com/ioanzicu/rabbit/blob/master/read-me-img/rabbit2.png)
 
-
+Rabbits Galery
 ![alt text](https://github.com/ioanzicu/rabbit/blob/master/read-me-img/rabbit3.png)
 
 ![alt text](https://github.com/ioanzicu/rabbit/blob/master/read-me-img/rabbit4.png)
