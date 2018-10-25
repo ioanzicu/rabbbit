@@ -17,10 +17,6 @@ The purpose of the website is to provide a simple platform for rabbit lovers to 
 
 ![alt text](https://github.com/ioanzicu/rabbit/blob/master/read-me-img/rabbit3.png)
 
-### Footer
-
-![alt text](https://github.com/ioanzicu/rabbit/blob/master/read-me-img/rabbit4.png)
-
 ### Show Page for individual rabbit post
 
 ![alt text](https://github.com/ioanzicu/rabbit/blob/master/read-me-img/rabbit6.png)
@@ -30,3 +26,7 @@ The purpose of the website is to provide a simple platform for rabbit lovers to 
 ### About Page
 
 ![alt text](https://github.com/ioanzicu/rabbit/blob/master/read-me-img/rabbit7.png)
+
+### Footer
+
+![alt text](https://github.com/ioanzicu/rabbit/blob/master/read-me-img/rabbit4.png)
